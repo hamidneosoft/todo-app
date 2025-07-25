@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: todo-app
+Version: 0.1.0
+Summary: A full-stack To-Do list application with FastAPI, Streamlit, and Gemini for translation
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: google-generativeai
+Requires-Dist: python-dotenv
+Requires-Dist: sqlmodel

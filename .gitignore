@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Local database file
+sql_app.db
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment directories
+.venv/
+env/
+venv/
+/venv
+/env
+
+# Poetry specific files
+.poetry/
+.mypy_cache/
+.pytest_cache/
+.streamlit/

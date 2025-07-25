@@ -1,0 +1,25 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "A full-stack To-Do list application with FastAPI, Streamlit, and Gemini for translation"
+authors = [{ name = "Hamid Mukhtar", email = "hamid.mukhtar@example.com" }]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "streamlit",
+    "requests",
+    "google-generativeai", # Added for Gemini integration
+    "python-dotenv",       # Added for loading environment variables
+    "sqlmodel",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
