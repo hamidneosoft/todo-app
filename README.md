@@ -96,5 +96,3 @@ The application consists of two parts: a FastAPI backend and a Streamlit fronten
 * **Mark Completed:** Click the "Mark Completed" button next to a pending task to move it to the completed list.
 * **Translate Task:** Use the "Translate to <language>" button to get a real-time translation of the task's title, description, priority, and due date.
 * **Delete Task:** Click the "Delete" button to remove a task permanently from the database.
-
-## Project Structure
